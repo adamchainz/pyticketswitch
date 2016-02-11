@@ -1,11 +1,12 @@
-from base import InterfaceObject, Seat, Currency, Commission
+from pyticketswitch.interface_objects.base import (
+    InterfaceObject, Seat, Currency, Commission,)
 from pyticketswitch.util import (
     to_int_or_return, to_float_or_none,
     to_float_summed, format_price_with_symbol
 )
-import performance as perf_objs
-import event as event_objs
-import availability
+from pyticketswitch.interface_objects import performance as perf_objs
+from pyticketswitch.interface_objects import event as event_objs
+from pyticketswitch.interface_objects import availability
 
 
 class Order(InterfaceObject):

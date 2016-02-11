@@ -1,6 +1,5 @@
-import core_objects as objects
-from util import create_dict_from_xml_element
-import api_exceptions as aex
+from pyticketswitch import core_objects as objects, api_exceptions as aex
+from pyticketswitch.util import create_dict_from_xml_element
 
 
 def script_error(root):

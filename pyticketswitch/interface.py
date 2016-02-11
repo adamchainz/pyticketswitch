@@ -6,10 +6,9 @@ except ImportError:
 from datetime import datetime
 import logging
 
-from util import create_xml_from_dict, dict_ignore_nones
-from api_exceptions import CommsException, InvalidResponse
-import parse
-import settings
+from pyticketswitch.util import create_xml_from_dict, dict_ignore_nones
+from pyticketswitch.api_exceptions import CommsException, InvalidResponse
+from pyticketswitch import parse, settings
 
 logger = logging.getLogger(__name__)
 filelog = logging.getLogger('filelog.' + __name__)

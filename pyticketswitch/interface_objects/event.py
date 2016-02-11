@@ -6,12 +6,12 @@ from pyticketswitch.util import (
     resolve_boolean, to_int_or_none, yyyymmdd_to_date,
     dates_in_range, hhmmss_to_time, date_to_yyyymmdd_or_none
 )
-from base import InterfaceObject, CostRangeMixin
+from pyticketswitch.interface_objects.base import InterfaceObject, CostRangeMixin
 from pyticketswitch.api_exceptions import InvalidId
 from pyticketswitch import settings
-import core as core_objs
-import performance as perf_objs
-import availability as avail_objs
+from pyticketswitch.interface_objects import core as core_objs
+from pyticketswitch.interface_objects import performance as perf_objs
+from pyticketswitch.interface_objects import availability as avail_objs
 
 
 class Category(object):

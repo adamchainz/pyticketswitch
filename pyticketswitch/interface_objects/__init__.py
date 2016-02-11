@@ -1,12 +1,15 @@
-from core import Core
-from event import Category, Event, Review, Video
-from performance import Performance
-from availability import TicketType, Concession, DespatchMethod, AvailDetail
-from trolley import Trolley
-from reservation import Reservation
-from base import Customer, Seat, Card, Address, Commission, Currency
-from bundle import Bundle
-from order import Order
+from pyticketswitch.interface_objects.core import Core
+from pyticketswitch.interface_objects.event import (
+    Category, Event, Review, Video,)
+from pyticketswitch.interface_objects.performance import Performance
+from pyticketswitch.interface_objects.availability import (
+    TicketType, Concession, DespatchMethod, AvailDetail,)
+from pyticketswitch.interface_objects.trolley import Trolley
+from pyticketswitch.interface_objects.reservation import Reservation
+from pyticketswitch.interface_objects.base import (
+    Customer, Seat, Card, Address, Commission, Currency,)
+from pyticketswitch.interface_objects.bundle import Bundle
+from pyticketswitch.interface_objects.order import Order
 
 __all__ = (
     'Core', 'Category', 'Event', 'Review', 'Performance',

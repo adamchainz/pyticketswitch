@@ -1,10 +1,10 @@
-from base import InterfaceObject
+from pyticketswitch.interface_objects.base import InterfaceObject
 from pyticketswitch.util import (
     to_int_or_none, resolve_boolean
 )
-import order as order_objs
-import bundle as bundle_objs
-import reservation as res_objs
+from pyticketswitch.interface_objects import order as order_objs
+from pyticketswitch.interface_objects import bundle as bundle_objs
+from pyticketswitch.interface_objects import reservation as res_objs
 
 
 class Trolley(InterfaceObject):

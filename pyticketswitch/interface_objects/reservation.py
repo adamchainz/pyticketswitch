@@ -1,10 +1,10 @@
-import trolley as trolley_objs
+from pyticketswitch.interface_objects import trolley as trolley_objs
 from pyticketswitch.util import (
     to_float_or_zero, resolve_boolean, dict_ignore_nones,
     boolean_to_yes_no
 )
-from base import Customer
-import bundle as bundle_objs
+from pyticketswitch.interface_objects.base import Customer
+from pyticketswitch.interface_objects import bundle as bundle_objs
 
 
 class Reservation(trolley_objs.Trolley):

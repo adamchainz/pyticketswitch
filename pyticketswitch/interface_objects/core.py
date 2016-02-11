@@ -1,8 +1,8 @@
-from base import InterfaceObject
+from pyticketswitch.interface_objects.base import InterfaceObject
 from pyticketswitch import settings
-import event as event_objs
-import order as order_objs
-import reservation as res_objs
+from pyticketswitch.interface_objects import event as event_objs
+from pyticketswitch.interface_objects import order as order_objs
+from pyticketswitch.interface_objects import reservation as res_objs
 from pyticketswitch.util import date_to_yyyymmdd
 
 
