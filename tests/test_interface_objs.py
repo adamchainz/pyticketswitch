@@ -1,3 +1,4 @@
+import six
 import unittest
 import datetime
 from copy import deepcopy
@@ -207,7 +208,7 @@ class ValidEventTests(InterfaceObjectTestCase):
         for prop_name in (
             'min_seatprice', 'min_combined_price',
         ):
-            self.assertIsInstance(getattr(self.event, prop_name), unicode)
+            self.assertIsInstance(getattr(self.event, prop_name), six.text_type)
 
     def test_boolean_properties(self):
 
@@ -352,7 +353,7 @@ class AvailDetailTests(InterfaceObjectTestCase):
         ):
             prop = getattr(self.avail_detail, prop_name)
             if prop is not None:
-                self.assertIsInstance(prop, unicode)
+                self.assertIsInstance(prop, six.text_type)
 
     def test_weekday_available(self):
         self.assertIsInstance(self.avail_detail.weekdays_available, list)
@@ -614,7 +615,7 @@ class TicketTypeTests(InterfaceObjectTestCase):
             'non_offer_combined'
         ):
             self.assertIsInstance(
-                getattr(self.ticket_type, prop_name), unicode
+                getattr(self.ticket_type, prop_name), six.text_type,
             )
 
     def test_int_properties(self):
@@ -725,7 +726,7 @@ class ConcessionTests(InterfaceObjectTestCase):
         for prop_name in (
             'ticket_price', 'surcharge', 'seatprice'
         ):
-            self.assertIsInstance(getattr(self.concession, prop_name), unicode)
+            self.assertIsInstance(getattr(self.concession, prop_name), six.text_type,)
 
     def test_float_properties(self):
 
@@ -781,7 +782,7 @@ class DespatchMethodTests(InterfaceObjectTestCase):
             'cost',
         ):
             self.assertIsInstance(
-                getattr(self.despatch_method, prop_name), unicode
+                getattr(self.despatch_method, prop_name), six.text_type,
             )
 
 
@@ -854,7 +855,7 @@ class OrderTests(InterfaceObjectTestCase):
             'total_combined',
         ):
             self.assertIsInstance(
-                getattr(self.order, prop_name), unicode
+                getattr(self.order, prop_name), six.text_type,
             )
 
     def test_performance(self):
@@ -1028,7 +1029,7 @@ class BundleTests(InterfaceObjectTestCase):
             'total_despatch', 'total_cost',
         ):
             self.assertIsInstance(
-                getattr(self.trolley.bundles[0], prop_name), unicode
+                getattr(self.trolley.bundles[0], prop_name), six.text_type
             )
 
     def test_int_properties(self):

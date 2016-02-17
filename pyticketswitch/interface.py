@@ -1,3 +1,4 @@
+import six
 import requests
 try:
     import xml.etree.cElementTree as xml
@@ -54,7 +55,7 @@ class CoreAPI(object):
 
         filelog.debug(
             u'URL=%s; API_REQUEST=%s',
-            url, unicode(data, 'UTF-8')
+            url, six.u(data).decode('UTF-8')
         )
 
         response_string = None
@@ -121,7 +122,7 @@ class CoreAPI(object):
 
             filelog.debug(
                 u'API_RESPONSE=%s',
-                unicode(response_string, 'UTF-8')
+                six.u(response_string).decode('UTF-8')
             )
 
         finally:
