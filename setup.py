@@ -24,11 +24,14 @@ setup(
     long_description=open('README.rst').read(),
     install_requires=[
         'requests>=2.0.0',
+        'six>=1.10.0',
     ],
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 1 - Planning',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
         'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
     ],
 )
