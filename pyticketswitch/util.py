@@ -1,3 +1,4 @@
+import six
 try:
     import xml.etree.cElementTree as xml
 except ImportError:
@@ -56,7 +57,7 @@ def _recur_xml_list(root, key, arg_list):
 
 
 def _recur_xml_dict(root, arg_dict):
-    for (key, value) in arg_dict.iteritems():
+    for (key, value) in six.iteritems(arg_dict):
         if type(value) is dict:
             tmp = xml.SubElement(root, key)
             _recur_xml_dict(tmp, value)
@@ -68,7 +69,7 @@ def _recur_xml_dict(root, arg_dict):
         else:
             tmp = xml.SubElement(root, key)
             try:
-                tmp.text = unicode(value)
+                tmp.text = six.u(value)
             except:
                 tmp.text = value
     return root
