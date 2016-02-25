@@ -4,4 +4,4 @@ pytest
 pytest-cov
 tox
 vcrpy
-git+ssh://git@github.com/ingresso-group/vcrpy-unittest.git@master
+git+https://github.com/ingresso-group/vcrpy-unittest.git@master
