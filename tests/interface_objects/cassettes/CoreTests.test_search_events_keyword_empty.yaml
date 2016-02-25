@@ -15,21 +15,21 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA21Sy27bMBC89ysE31XFiIKmAMPAQRFUrusosVQ7uRASubVlUaTCh2Xq60spDQK3
-        PnGXs5yd2SW6PTY8OIDSlRQ3k+nni0kAgkpWie3NJM/uw+vJLf6EtCmUIRr0UEcUaMsNRtqWTDZF
-        JYjVoEilSVkw7ECj6DyEqHKtkaTkktaYkjBcx22/XW8OdjVfJKumW33Ls+nmOutTENOvSUlmV9TK
-        h+4yv1vweOncvLzI9105XTYp/SUehFJWXK2y1D05Ht/t2X4+r8PXx5ewec2fvz/P7ndJ8zOpL9uU
-        HfOeapfPlkm8O/RhH5OnisaNSTfp8si/hC8oOtGHPLXwgxgtYFQWtAbByFZJ22KjOxSdXiEqhQFh
-        3tIIIwa/Cz8oQqUVRjl/MsC2RtFZACkoOBFFAzgDbYL1rjIQLIoSeJB7BSj6KPALcRxwaxX4WY/x
-        sA0yhtHf+J98cOHDt30w3A30fGAPjW9nxw7voO914v0/B6fK3zMGmuJceGIW/PCv/Rf4KB3BQe2Z
-        r/QHox7sbYgCAAA=
+        H4sIAAAAAAAAA21SXW/aMBR936+IeM8yqgyK5LrStEEjoKCRLB0vlmPf0BDHjvxRGn79nHRVxcaT
+        z/W5vvece43uXxsRvIA2lZJ3o/HnL6MAJFO8koe7UZbOw9vRPf6EjKXaEgOmzyMajBMWI+MKrhpa
+        SeIMaFIZUlCOOzAouk4hprvWKlIIxWrMSBguO5pk39eLKk+SxWz6uEnkLB6zl01Lb3ZyPEnjXNe7
+        c1nrYxi3dnla5Nv8sFLHVNBiHafjbyFpynW535f6Ybs4J6su/Wk2zeR3dpMxdwuzeQKsWD45c5z/
+        oOed/vqcPcxsJ+a76UT+YnFjt0/bx1cxDfcoutCHtJPSD2KwgFFBWQ2Sk4NWrsXWnFB0eYWYkhak
+        fQsjjDiU1A+KMOWk1Z0/OWBXo+gqgTRQQSRtAKdgbJA/VxaCFS1ABJlXgKKPBL+QTgBunQY/6wH3
+        2yADjP7if+LehYdv++D41JcXffXQ+nZu6PBO+l4X3v9zcKn8PeJgGM6kL8yDpX/tv8BH6kD2aq98
+        pT+v0nWUiAIAAA==
     headers:
       cache-control: ['max-age=30, must-revalidate']
       connection: [close]
       content-encoding: [gzip]
-      content-length: ['410']
+      content-length: ['409']
       content-type: [text/xml; charset=UTF-8]
-      date: ['Wed, 24 Feb 2016 13:23:23 GMT']
+      date: ['Thu, 25 Feb 2016 18:07:37 GMT']
       p3p: ['policyref="/w3c/p3p.xml", CP="NOI DSP COR LAW CURa ADMa DEVa OUR NOR
           IND PHY ONL UNI PUR COM NAV DEM STA"']
       server: [Apache]
@@ -41,8 +41,8 @@ interactions:
 - request:
     body: '<?xml version=''1.0'' encoding=''UTF-8''?>
 
-      <event_search><request_media>square</request_media><request_media>landscape</request_media><request_media>triplet_one</request_media><request_media>triplet_two</request_media><request_media>triplet_three</request_media><request_media>triplet_four</request_media><request_media>triplet_five</request_media><request_media>marquee</request_media><request_media>seating_plan</request_media><request_media>supplier</request_media><user_id>whitelabel-testuser</user_id><s_keys>abc24382hggeouh%$</s_keys><crypto_block>c_--W4pzgWXvuSJLISmwSDUT1X8TzPen19Ib_A5cuoOw3UBLl4NyyJb0Ujwb1NmPcVnOnrrun5STPyRyl4BjdjJJk-qQZ-mqUYHYAFhImMIk3pPdxUzcsyUANI4hvz-z4_Ric4mtPXPNxl7-Z</crypto_block><request_custom_fields
-      /><request_cost_range /></event_search>'
+      <event_search><s_keys>abc24382hggeouh%$</s_keys><request_media>square</request_media><request_media>landscape</request_media><request_media>triplet_one</request_media><request_media>triplet_two</request_media><request_media>triplet_three</request_media><request_media>triplet_four</request_media><request_media>triplet_five</request_media><request_media>marquee</request_media><request_media>seating_plan</request_media><request_media>supplier</request_media><crypto_block>c_--KyaIUDMGiWIIG97NOIn941cvOpa2Sn16T4WrkSzfkrj-4ptKwGWPWgLojTlabM4T1B-_mfMfZZfrHPGzILyTRsOm6YU2Ucu8e9FIecbKXusjFEazSr5hUH9tylFS76nVc4mtPXPNxl7-Z</crypto_block><request_custom_fields
+      /><user_id>whitelabel-testuser</user_id><request_cost_range /></event_search>'
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
@@ -55,18 +55,18 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA22QwW6CMABA7/sKw50hYzpIKsYMWQhG1ECW7tKUtiBQWmgB5e89L+H63uXlgf2z
-        5auJKV1JsTPs97WxYoJIWolyZ2RpaLrG3n8DbGJiQJphRe5IMT3ywQd6zKlscSXQqJlClUY5pv7M
-        NLCWFSBq7gaJci5J42fINKemK7zm2+uyTZKbpZIFtYefBzlfYO0womsngPa2vjbJGv6KYGrT+K4P
-        ToeeWf91O4VzQDbmjdrFNu6LEUZ9eQh1zF2WlmcYF3/Jp0JB65yi43Xu1bHuXY+rj0skPCdoHiWH
-        wPrXBGilBywI0wgrhibMK+oLCawlDqylLS9g6nZPUwEAAA==
+        H4sIAAAAAAAAA22QTW+CMABA7/sVhjtD1ukkqRgzZCGagUZiempKWz5LCy2g/Pudl3B97/Ly4OHV
+        itXEtamU3Fvu+9pacUkVq2Sxt9J7aO+sg/8G+cTlgA0nmpZYczOKwYdmzJhqSSXxaLjGlcEZYf7M
+        DXSWFaR67gaFM6Fo46fYtqemy73m2+vSTZzZhVY5c4efJ/1NUA04NTUIkLutr028Rg8ZTO39XJoj
+        6PAr7b9ul3AO6Ma+MTffnvt8RFFfHEMzg5mRoUwQesSfGgctuESn69zrU93vPKE/kkh6IGiehUDQ
+        +dcEWWUGIik3mGiOJyIq5ksFnSUOnaUtf9Bxt7BTAQAA
     headers:
       cache-control: ['max-age=30, must-revalidate']
       connection: [close]
       content-encoding: [gzip]
-      content-length: ['262']
+      content-length: ['261']
       content-type: [text/xml; charset=UTF-8]
-      date: ['Wed, 24 Feb 2016 13:23:23 GMT']
+      date: ['Thu, 25 Feb 2016 18:07:37 GMT']
       p3p: ['policyref="/w3c/p3p.xml", CP="NOI DSP COR LAW CURa ADMa DEVa OUR NOR
           IND PHY ONL UNI PUR COM NAV DEM STA"']
       server: [Apache]
